@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Exercício 01 - 18/03 - Tables</title>
+    <style>
+      table,
+      td {
+        border: 1.5px solid black;
+        border-collapse: collapse;
+        font-style: normal;
+        font-size: 150%;
+      }
+
+      td {
+        padding: 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <table style="width: 75%">
+      <tr>
+        <td><p>1</p></td>
+        <td><p>2</p></td>
+        <td><p>3</p></td>
+      </tr>
+      <tr>
+        <td><p align="center">4</p></td>
+        <td><p align="center">5</p></td>
+        <td><p align="center">6</p></td>
+      </tr>
+      <tr>
+        <td><p align="right">7</p></td>
+        <td><p align="right">8</p></td>
+        <td><p align="right">9</p></td>
+      </tr>
+    </table>
+    <hr />
+    <table style="width: 75%">
+      <tr>
+        <td><p>1</p></td>
+        <td><p>2</p></td>
+        <td><p>3</p></td>
+      </tr>
+      <tr>
+        <td colspan="3"><p align="center">4</p></td>
+      </tr>
+      <tr>
+        <td><p>7</p></td>
+        <td><p>8</p></td>
+        <td><p>9</p></td>
+      </tr>
+    </table>
+    <hr />
+    <table style="width: 75%">
+      <tr>
+        <td><p>1</p></td>
+        <td><p>2</p></td>
+        <td rowspan="3"><p>3</p></td>
+      </tr>
+      <tr>
+        <td colspan="2"><p align="center">4</p></td>
+      </tr>
+      <tr>
+        <td><p>5</p></td>
+        <td><p>6</p></td>
+      </tr>
+    </table>
+  </body>
+</html>
